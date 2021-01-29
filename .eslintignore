@@ -1,0 +1,7 @@
+dist
+coverage
+doc
+/*
+!/src
+
+!server.js
