@@ -1,0 +1,30 @@
+.incoming {
+  width: 500px;
+  padding: 16px;
+
+  border: 1px solid;
+}
+
+.incoming-header {
+  margin-top: 0;
+}
+
+.message {
+  margin-bottom: 5px;
+
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+  padding: 15px;
+
+  border: 1px solid;
+}
+
+.name-wrapper {
+  display: flex;
+}
+
+.email {
+  margin-right: 15px;
+}
