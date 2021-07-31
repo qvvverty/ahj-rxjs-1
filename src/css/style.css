@@ -1,5 +1,5 @@
 .incoming {
-  width: 500px;
+  width: 600px;
   padding: 16px;
 
   border: 1px solid;
@@ -11,20 +11,36 @@
 
 .message {
   margin-bottom: 5px;
-
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-
   padding: 15px;
 
   border: 1px solid;
 }
 
-.name-wrapper {
+.message-header {
   display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
-.email {
-  margin-right: 15px;
+.message-divider {
+  margin: 15px 0;
+}
+
+.message-header div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.message-header div:nth-last-of-type(1) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.message-header div:nth-of-type(1) {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.name-wrapper, .subject-wrapper, .date-wrapper {
+  width: 30%;
 }
