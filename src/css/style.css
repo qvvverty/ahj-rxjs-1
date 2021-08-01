@@ -1,5 +1,5 @@
 .incoming {
-  width: 600px;
+  width: 750px;
   padding: 16px;
 
   border: 1px solid;
@@ -10,33 +10,27 @@
 }
 
 .message {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
   margin-bottom: 5px;
   padding: 15px;
 
   border: 1px solid;
 }
 
-.message-header {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-
-.message-divider {
-  margin: 15px 0;
-}
-
-.message-header div {
+.message div {
   display: flex;
   justify-content: space-around;
 }
 
-.message-header div:nth-last-of-type(1) {
+.message div:nth-last-of-type(1) {
   display: flex;
   justify-content: flex-end;
 }
 
-.message-header div:nth-of-type(1) {
+.message div:nth-of-type(1) {
   display: flex;
   justify-content: flex-start;
 }
